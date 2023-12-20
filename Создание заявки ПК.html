@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <style>
+header {
+  background-color: #0075FF;
+  padding: 10px;
+}
+
+.logo {
+  float: left;
+  height: 200px;
+  width: 400px;
+}
+.logo img {
+    height: 250px;
+  width: 850px;
+  margin-left: 300px;
+}
+.menu {
+  display: inline-block;
+  margin-left: 150px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 30px;
+  left: 300px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  padding: 0px;
+}
+ul li a:hover {
+  color: #ff0000;
+}
+button {
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 300px;
+}
+
+.sch ul li a {
+  margin-right: 200px;
+  margin-left: 100px;
+  font-size: 40px;
+  color: red;
+}
+p {
+    font-size: 60px;
+    color:#0075FF ;
+}
+.name label {
+  margin-left: 500px;
+    font-size: 30px;
+}
+.name input {
+    font-size: 20px;
+    background: #FF0000;
+    margin-left: 40px;
+}
+.ww label {
+  margin-left: 400px;
+    font-size: 30px;
+}
+.ww input {
+    font-size: 20px;
+    background: #FF0000;
+    height: 200px;
+    width: 500px;
+    margin-left: 40px;
+}
+.check label {
+  margin-left: 300px;
+    font-size: 30px;
+}
+.check input {
+    margin-top: 20px;
+    margin-left:100px;
+    height: 30px;
+    width: 30px;
+}
+.photo input {
+    font-size: 30px;
+    margin-left: 550px;
+}
+.make button {
+    height: 100px;
+    width: 200px;
+    margin-left: 600px;
+    background: #0075FF;
+}
+.make a {
+    text-decoration: none;
+    color: black;
+}
+footer {
+  background-color: #0075FF;
+  padding: 10px;
+  margin-top: 200px;
+}
+p4 {
+  font-size: 30px;
+}
+.seti img {
+  display: inline-block;
+  height: 40px;
+  width: 50px;
+}
+p5 {
+  font-size: 25px;
+  padding-left: 0px;
+}
+.flogo img {
+  float: right;
+  height: 100px;
+  width: 100px;
+}
+</style>
+</head>
+<body>
+  <header>
+  <div class="logo">
+   <a href="индекс.html">
+     <img src="logo/Реклама.png">
+     </a>
+  </div> 
+  <div class="menu">
+   <ul>
+       <li><a href="О нас ПК.html">О нас</a></li>
+       <li><a href="Акции ПК.html">Акции</a></li>
+       <li><a href="Новости ПК.html">Новости</a></li>
+       <li><a href="оставь заявку ПК.html">Оставь заявку</a></li>
+       <li><a href="Галерея ПК.html">Галерея</a></li>
+   </ul>
+  </div>
+  <button type="button"><a href="Войти ПК.html">Войти</a></button>
+<button type="button"><a href="Регистрация ПК.html">Зарегистрироваться</a></button>
+  <div class="sch">
+   <ul>
+       <li><a>Решенных проблем: 2</a></li>
+       <li><a href="индекс.html">Мобильная версия</a></li>
+       </ul>
+       </div>
+</header>
+<p style="text-align: center;">Создание заявки</p>
+<form action="/submit-login" method="post">
+    <div class="name">
+    <label style-"color: black; font-size: 40px; " for="tema">Тема заявки</label>
+    <input style-"color: black; font-size: 40px; " type="tema" id="tema" name="tema">
+    </div><br><br>
+    <div class="ww">
+      <label style-"color: black; font-size: 40px; " for="login">Описание</label>
+    <input style-"color: black; font-size: 40px; " type="login" id="login" name="login">
+    </div>
+<div class="check">
+    <label>
+        <input type="checkbox" name="myCheckbox" value="&#x2713;">
+        Дороги
+        <input type="checkbox" name="myCheckbox" value="&#x2713;">
+        Мусор
+        <input type="checkbox" name="myCheckbox" value="&#x2713;">
+        Животные
+    </label>
+</div>
+<div class="photo">
+<form enctype="multipart/form-data" method="post">
+    <p>
+      <input type="file" name="photo">
+    </p>
+    <p>
+      <input type="submit" value="Загрузить фото">
+    </p>
+  </form>
+  </div>
+  <div class="make">
+    <button type="button"><a href="Мои заявки ПК.html">Создать</a></button>
+  </div>
+  <footer>
+    <div class="flogo">
+      <img src="logo/logo.png">
+      </div>
+      <p4>vmesteinfo@mail.ru</p4>
+      <div class="seti">
+        <a href="https://vk.com/dd_bb_plz">
+      <img src="content/image 8.png">
+    </a>
+      <img src="content/image 9.png">
+    </div>
+    
+    <p5>Выполнено студенткой группы 2_ИС Голдобиной Евгенией</p5>
+    </footer>
+    </body>
+    </html>
